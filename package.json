@@ -1,0 +1,26 @@
+{
+  "name": "@nycopportunity/pttrn-plugin-twig",
+  "version": "0.0.0",
+  "description": "A plugin command script for the https://github.com/CityOfNewYork/patterns-cli that will compile Twig view templates. Replaces the default Slm compiler.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfNewYork/patterns-plugin-twig.git"
+  },
+  "author": "NYC Opportunity <products@nycopportunity.nyc.gov>",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/CityOfNewYork/patterns-plugin-twig/issues"
+  },
+  "homepage": "https://github.com/CityOfNewYork/patterns-plugin-twig#readme",
+  "main": "index.js",
+  "scripts": {
+    "version": "git add .",
+    "prepublishOnly": "git push && git push --tags"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "js-beautify": "^1.13.4",
+    "marked": "^1.2.7",
+    "twig": "^1.15.4"
+  }
+}
