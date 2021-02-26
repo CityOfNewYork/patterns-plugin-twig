@@ -213,6 +213,9 @@ const compile = {
 
       locals = Object.assign(locals, opts.config);
 
+      // Do not cache partials or layouts
+      twig.cache(false);
+
       // Make the include method available to templates
       twig.extendFunction('include', include);
 
