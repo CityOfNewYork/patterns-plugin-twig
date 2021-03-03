@@ -27,8 +27,8 @@ const args = require('@nycopportunity/pttrn/bin/util/args').args;
 const pa11y = require('@nycopportunity/pttrn/bin/pa11y');
 
 // Configurations
-const global = require('@nycopportunity/pttrn/config/global');
-const alerts = require('@nycopportunity/pttrn/config/alerts');
+const global = resolve('config/global');
+const alerts = resolve('config/alerts');
 
 /**
  * Set options to a function for watching config changes
